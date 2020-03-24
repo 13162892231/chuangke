@@ -1,0 +1,84 @@
+﻿.banner{margin-bottom:0;}
+.nav{width:100%;min-width:1000px;border-bottom:1px solid #dcdcdc;margin-bottom:50px;background-color:#fff;z-index:999;}
+.nav ul{overflow:hidden;width:1000px;margin:0px auto;}
+.nav ul li{float:left;width:250px;height:105px;line-height:105px;}
+.nav ul li a{display:block;width:250px;height:40px;text-align:center;line-height:40px;border-right:1px solid #dcdcdc;margin-top:32.5px;}
+.nav ul li.cur a {color:#e8323f;}
+.nav ul li.cur{border-bottom:2px solid #e8323f;}
+/*教育*/
+.education{width:1000px;margin:0px auto;overflow:hidden;}
+.education_img{width:465px;height:86px;margin:50px auto 50px;}
+.education_img img{width:100%}
+.education p{margin:0px auto 80px;width:890px;font-size:24px;text-align:center;line-height:35px;}
+.case_edu{overflow:hidden;}
+/*轮播*/
+.swiper-container{width:428px;height:318px;float:left;border:1px solid #dcdcdc;}
+.swiper-wrapper .swiper-slide img{width:100%;}
+.swiper-container{z-index:0;}
+.swiper-pagination-bullet{border:2px solid #e8323f;opacity:1;background:none;width:18px;height:18px;}
+.swiper-pagination-bullet-active{background:#e8323f;}
+.swiper-container-horizontal>.swiper-pagination .swiper-pagination-bullet{margin:0px 13px 25px 0;}
+
+.progress{width:40px;height:428px;float:left;margin:0px 50px;}
+
+.education .detail_left h1,.education .detail_right h1{font-size:36px;color:#000;}
+.education .detail_left {width:430px;height:350px;float:left;}
+.education .detail_left span{display:block;width:100px;height:1px;background-color:#dcdcdc;margin:40px 0 26px 0;}
+.education .detail_left p{font-size:14px;color:#828282;margin:0;text-align:left;width:420px;line-height:26px;}
+.education .detail_right {width:430px;height:350px;float:left;text-align:right;}
+.education .detail_right span{display:block;width:100px;height:1px;background-color:#dcdcdc;margin:40px 0 26px 0;float:right;}
+.education .detail_right p{font-size:14px;color:#828282;margin:0;text-align:left;width:420px;line-height:26px;float:right;text-align:right;}
+.education .detail_right p.special{margin-bottom:5px;}
+.education .detail_right p.special img{float:right;margin-left:10px;margin-top:3px;}
+
+/*健康*/
+.healthy{width:1000px;margin:0px auto;overflow:hidden;display:none;}
+.healthy_img{width:465px;height:86px;margin:50px auto 50px;}
+.healthy_img img{width:100%}
+.healthy p{font-size:24px;text-align:center;line-height:35px;}
+.healthy p.linethree{margin-bottom:80px;}
+.case_heal{margin-left:71px;overflow:hidden;}
+.case_heal .detail_left p{font-size:14px;color:#828282;margin:0;text-align:left;width:420px;line-height:26px;}
+.case_heal p.title{font-size:24px;color:#4d4d4d;line-height:40px;margin-top:10px;}
+.case_heal p{font-size:14px;color:#828282;margin:0;text-align:left;width:420px;line-height:25px;}
+.case_heal .detail_left{margin-left:40px;width:430px;height:350px;float:left;}
+.case_heal .detail_left h1{font-size:36px;color:#000;}
+.case_heal .detail_left span{margin:20px 0 25px 0;display:block;width:100px;height:1px;background-color:#dcdcdc;}
+
+/*文创*/
+.winchance{width:1000px;margin:0px auto;overflow:hidden;display:none;}
+.winchance_img{width:465px;height:86px;margin:50px auto 50px;}
+.winchance_img img{width:100%}
+.winchance p{font-size:24px;text-align:center;line-height:35px;}
+.winchance .main_img{margin:80px auto;}
+.winchance .main_img img{margin-right:26px;}
+.winchance .main_img img:nth-child(2n){margin-right:0;}
+
+
+
+
+
+
+/*科技*/
+.technology{width:1000px;margin:0px auto;overflow:hidden;display:none;}
+.technology_img{width:465px;height:86px;margin:50px auto 50px;}
+.technology_img img{width:100%}
+.technology p{margin:0px auto;font-size:24px;text-align:center;line-height:35px;}
+.technology p.lineone{width:890px;}
+.technology p.linetwo{width:800px;}
+.technology p.linethree{width:540px;margin-bottom:80px;}
+.case_tec{overflow:hidden;}
+.technology .detail_left h1,.technology .detail_right h1{font-size:36px;color:#000;}
+.technology .detail_left {width:430px;height:350px;float:left;}
+.technology .detail_left span{display:block;width:100px;height:1px;background-color:#dcdcdc;margin:23px 0 26px 0;}
+.technology .detail_left p{font-size:14px;color:#828282;margin:0;text-align:left;width:420px;line-height:26px;}
+.technology .detail_right {width:430px;height:350px;float:left;text-align:right;}
+.technology .detail_right span{display:block;width:100px;height:1px;background-color:#dcdcdc;margin:40px 0 26px 0;float:right;}
+.technology .detail_right p{font-size:14px;color:#828282;margin:0;text-align:left;width:420px;line-height:26px;float:right;text-align:right;}
+.technology .detail_right p.special{margin-bottom:5px;}
+.technology .detail_right p.special img{float:right;margin-left:10px;}
+
+
+
+.foot{margin-top:115px;}
+

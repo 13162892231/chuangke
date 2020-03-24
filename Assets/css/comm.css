@@ -1,0 +1,215 @@
+﻿/* 全局 */
+
+* {
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    -webkit-tap-highlight-color: rgba(255, 0, 0, 0);
+}
+
+html {
+    height: 100%;
+    min-width: 1000px;
+}
+
+body,
+button,
+input,
+select,
+textarea,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+p,
+li,
+span {
+    font-family: '黑体';
+}
+
+dd,
+dt,
+dl,
+li,
+ol,
+ul,
+img,
+form,
+div,
+fieldset,
+legend,
+menu {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+ol,
+ul,
+li {
+    list-style-type: none;
+}
+
+input,
+textarea {
+    outline: none;
+}
+
+input:focus {
+    border-color: #fff;
+}
+
+textarea:focus {
+    border-color: #fff;
+}
+
+a,
+a:link,
+a:visited {
+    color: #333333;
+    text-decoration: none;
+    -webkit-tap-highlight-color: rgba(255, 0, 0, 0);
+    /*去除标签的边框*/
+}
+
+a:hover,
+a:active,
+a:focus {
+    color: #333333;
+    text-decoration: none;
+    -webkit-tap-highlight-color: rgba(255, 0, 0, 0);
+    /*去除标签的边框*/
+}
+
+body {
+    margin: 0 auto;
+    min-width: 1000px;
+}
+
+
+/*头部*/
+
+.top_opacity {
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9;
+    min-width: 1000px;
+    background-color: rgba(0, 0, 0, 0.5)
+}
+
+.top {
+    width: 1000px;
+    margin: 0px auto;
+    height: 100px;
+    line-height: 100px;
+    z-index: 10;
+}
+
+.top .logo {
+    float: left;
+}
+
+.top .logo a {
+    width: 221px;
+    height: 53px;
+    margin-top: 23px;
+    display: block;
+    font-size: 0;
+}
+
+.top .logo a img {
+    width: 100%;
+}
+
+.top .top_nav {
+    float: right;
+}
+
+.top .top_nav a {
+    color: #fff;
+    margin-left: 50px;
+    font-size: 16px;
+}
+
+.top .top_nav a.cur {
+    color: #e8323f;
+}
+
+.banner {
+    margin-bottom: 55px;
+}
+
+.banner img {
+    width: 100%;
+}
+
+
+/*底部*/
+
+.foot {
+    height: 60px;
+    width: 100%;
+    background-color: #000000;
+    position: relative;
+}
+
+.foot .foot_child {
+    overflow: hidden;
+    width: 1000px;
+    margin: 0px auto;
+}
+
+.foot .foot_left {
+    float: left;
+    width: 500px;
+}
+
+.foot .foot_left span {
+    color: #888888;
+    line-height: 60px;
+    font-size: 12px;
+    display: block;
+    float: left;
+    margin-right: 15px;
+}
+
+.foot .foot_left a {
+    display: inline-block;
+    float: left;
+    margin: 15px 0 0 15px;
+    width: 29px;
+}
+
+.foot .foot_left a img {
+    width: 100%;
+}
+
+.foot .foot_left a.weixin:hover img.weixin {
+    display: block;
+}
+
+.foot .foot_right {
+    float: right;
+}
+
+.foot_right a {
+    color: #888888;
+    line-height: 60px;
+    margin-left: 14px;
+    font-size: 14px;
+}
+
+.foot .foot_left a img.weixin {
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    margin-left: -195px;
+    width: 61px;
+    display: none;
+}

@@ -1,0 +1,98 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>创客首页</title>
+    <link href="Assets/Plugins/swiper/swiper.min.css" rel="stylesheet" />
+    <link href="Assets/css/comm.css" rel="stylesheet" />
+    <link href="Assets/css/index.css" rel="stylesheet" />
+    <script src="Assets/Plugins/jquery/jquery-1.11.2.min.js"></script>
+    <script src="Assets/Plugins/swiper/swiper.jquery.min.js"></script>
+</head>
+
+<body>
+    <!--头部-->
+    <div class="top_opacity">
+        <div class="top">
+            <div class="logo">
+                <h1>
+                    <a href="index.html">
+                        <img src="Assets/images/logo.png" />创客</a>
+                </h1>
+
+            </div>
+            <div class="top_nav">
+                <a href="index.html" class="cur index">首页</a>
+                <a href="javascript:void(0);">关于我们</a>
+                <a href="case.html">案例展示</a>
+                <a href="partner.html">合作伙伴</a>
+                <a href="news.html">新闻动态</a>
+            </div>
+        </div>
+    </div>
+
+    <!--焦点图-->
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="Assets/images/banner_4.png" /></div>
+            <div class="swiper-slide"><img src="Assets/images/banner_5.png" /></div>
+            <div class="swiper-slide"><img src="Assets/images/banner_6.png" /></div>
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div>
+
+    <div class="main">
+        <p>创客中心集团专注于教育、健康、文创、科技四大产业版块的创客企业的扶持与发展</p>
+        <ul>
+            <li>
+                <a href="javascript:;"><img src="Assets/images/index1.png" /><span>教育版块</span></a>
+            </li>
+            <li>
+                <a href="javascript:;"><img src="Assets/images/index2.png" /><span>健康版块</span></a>
+            </li>
+            <li>
+                <a href="javascript:;"><img src="Assets/images/index3.png" /><span>文创版块</span></a>
+            </li>
+            <li>
+                <a href="javascript:;"><img src="Assets/images/index4.png" /><span>科技版块</span></a>
+            </li>
+        </ul>
+    </div>
+
+    <!--底部-->
+    <div class="foot">
+        <div class="foot_child">
+            <div class="foot_left">
+                <span> 2010-2015 maker.com. All rights reserved.</span>
+                <a href="javascript:void{0}">
+                    <img src="Assets/images/boot_01.png" /></a>
+                <a href="javascript:void{0}" class="weixin">
+                    <img src="Assets/images/boot_02.png" />
+                    <img src="Assets/images/weixin.png" class="weixin" />
+                </a>
+            </div>
+            <div class="foot_right"><a href="javascript:void{0}">加入我们</a><a>|</a><a href="javascript:void{0}">企业合作</a></div>
+        </div>
+
+    </div>
+
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            pagination: '.swiper-pagination',
+            nextButton: '.swiper-button-next',
+            prevButton: '.swiper-button-prev',
+            slidesPerView: 1,
+            paginationClickable: true,
+            spaceBetween: 30,
+            loop: false
+        });
+        //$(".main ul li")
+    </script>
+
+
+</body>
+
+</html>

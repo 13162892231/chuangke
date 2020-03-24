@@ -1,0 +1,21 @@
+﻿/*焦点图*/
+.swiper-wrapper .swiper-slide img{width:100%;}
+.swiper-button-prev{left:50%;margin-left:-540px;}
+.swiper-button-next{right:50%;margin-right:-540px;}
+.swiper-container{z-index:0;}
+.swiper-pagination-bullet{border:2px solid #fff;opacity:1;background:none;width:18px;height:18px;}
+.swiper-pagination-bullet-active{background:#fff;}
+.swiper-container-horizontal>.swiper-pagination .swiper-pagination-bullet{margin:0px 13px 35px 0;}
+
+.main{width:1000px;margin:40px auto 50px;}
+.main p{text-align:center;font-size:18px;color:#828282;}
+.main ul{overflow:hidden;}
+.main ul li{float:left;margin-top:40px;}
+.main ul li a{display:block;width:249px;height:50px;line-height:50px;text-align:center;overflow:hidden;border-left:1px solid #c8c8c8;}
+.main ul li:first-child a{border-left:0;}
+.main ul li a img{float:left;width:50px;margin:0 10px 0 65px;}
+.main ul li a span{float:left;}
+
+.index{font-weight:600;}
+.foot{position:fixed;bottom:0;}
+
